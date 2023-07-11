@@ -63,6 +63,8 @@ resource "aws_ecs_task_definition" "task" {
       ],
     },
   ])
+
+  depends_on = [aws_vpc.main]
 }
 
 # Creating an ECS service
