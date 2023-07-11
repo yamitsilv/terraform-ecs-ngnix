@@ -1,5 +1,5 @@
-# Terraform Ecs Ngnix
-Terraform ECS with Ngnix that serves "hello world" and VPC Flow Logs
+# Terraform ECS - Ngnix
+Terraform ECS with Ngnix that serves "hello world" and VPC Flow Logs.
 This repository contains Terraform templates to create an ECS (Elastic Container Service) cluster with an NGINX container, along with VPC Flow Logs enabled for network traffic monitoring.
 
 ## Prerequisites
